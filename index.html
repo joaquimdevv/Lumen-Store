@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lumen Store</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #111;
+      color: #fff;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+
+    header p {
+      color: #ccc;
+      margin-top: 0.5rem;
+    }
+
+    main {
+      max-width: 1200px;
+      margin: auto;
+      padding: 2rem 1rem;
+    }
+
+    .produtos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 2rem;
+    }
+
+    .produto {
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+      padding: 1.5rem;
+      transition: transform 0.2s;
+    }
+
+    .produto:hover {
+      transform: translateY(-5px);
+    }
+
+    .produto h3 {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .produto p {
+      font-size: 0.95rem;
+      color: #555;
+      margin-bottom: 1rem;
+    }
+
+    .produto button {
+      background-color: #111;
+      color: #fff;
+      border: none;
+      padding: 0.6rem 1.2rem;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .produto button:hover {
+      background-color: #333;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      color: #aaa;
+      margin-top: 2rem;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.8rem;
+      }
+
+      .produto {
+        padding: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Lumen Store</h1>
+    <p>Produtos de luxo, feitos para impressionar</p>
+  </header>
+
+  <main>
+    <section class="produtos">
+      <div class="produto"><h3>Perfume Noir</h3><p>Aroma intenso e marcante para ocasiões especiais.</p><button>Ver mais</button></div>
+      <div class="produto"><h3>Bolsa Lux Prime</h3><p>Couro legítimo e acabamento premium.</p><button>Ver mais</button></div>
+      <div class="produto"><h3>Óculos Vision</h3><p>Design moderno com lentes antirreflexo.</p><button>Ver mais</button></div>
+      <div class="produto"><h3>Relógio Clássico</h3><p>Elegância que nunca sai de moda.</p><button>Ver mais</button></div>
+      <div class="produto"><h3>Notebook Alpha</h3><p>Desempenho e estilo em um só produto.</p><button>Ver mais</button></div>
+      <div class="produto"><h3>Fone Studio Pro</h3><p>Som profissional e conforto total.</p><button>Ver mais</button></div>
+      <div class="produto"><h3>Jaqueta Minimal</h3><p>Estilo urbano com toque de sofisticação.</p><button>Ver mais</button></div>
+      <div class="produto"><h3>Colar de Prata</h3><p>Detalhes delicados com acabamento brilhante.</p><button>Ver mais</button></div>
+      <div class="produto"><h3>Bolsa Glam</h3><p>Brilho discreto para ocasiões formais.</p><button>Ver mais</button></div>
+      <div class="produto"><h3>Camisa Social Lux</h3><p>Perfeita para encontros ou reuniões importantes.</p><button>Ver mais</button></div>
+      <div class="produto"><h3>Tablet VisionX</h3><p>Leve, rápido e com tela de altíssima qualidade.</p><button>Ver mais</button></div>
+      <div class="produto"><h3>Pulseira Smart</h3><p>Controle seu dia com estilo e tecnologia.</p><button>Ver mais</button></div>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Lumen Store — Todos os direitos reservados.
+  </footer>
+</body>
+</html>
